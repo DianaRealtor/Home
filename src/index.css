@@ -198,6 +198,10 @@ iframe {
   background: rgb(255, 255, 255, 0.5);
   height: 100%;
 }
+.card-button{
+  width:100%;
+  font-size: 23px;
+}
 /* TOOLTIP CONTAINER */
 .portfolio-tooltip {
 }

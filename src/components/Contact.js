@@ -48,7 +48,7 @@ function Contact() {
             Send me a message and I will get back to you!{" "}
           </p>
           <hr className="divider-line" />
-          <div className="Contact card">
+          <div className="Contact card-transparent">
             <div className="">
               <form className="form contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -92,7 +92,7 @@ function Contact() {
                   ></textarea>
                 </div>
                 <div className="form-group">
-                  <button className="btn btn-primary" type="submit">
+                  <button className="btn btn-primary card-button" type="submit">
                     Submit
                   </button>
                 </div>

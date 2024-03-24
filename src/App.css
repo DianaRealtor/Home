@@ -59,6 +59,7 @@
 
 label {
   margin-bottom: 10px;
+  font-weight: unset;
 }
 /* PAGE WIDE */
 :root {
@@ -96,7 +97,9 @@ img:hover {
   height: 361px;
   width: 500px;
 }
-
+.btn-default{
+  color: #b4b4b4 ;
+}
 .divider-line {
   border: 0;
   height: 3px;
@@ -248,6 +251,15 @@ iframe {
   margin: 20px;
   background-color: white;
   /* color: black !important; */
+}
+
+.card-transparent {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  display: inline-grid;
+  margin: 20px;
+  font-size: 23px;
 }
 
 @media (max-width: 768px) {
