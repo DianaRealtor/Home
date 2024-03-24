@@ -12,7 +12,7 @@ function ProjectPortfolio(props) {
     if(props.componentToShow == undefined || props.componentToShow == null || props.componentToShow == '')
     {
         return (
-            <div className="ProjectPortfolio">
+            <div className="project-portfolio ">
                 <p>Testing ProjectPortfolio</p>
             </div>
           );
@@ -20,7 +20,7 @@ function ProjectPortfolio(props) {
     else if(props.componentToShow == 'AboutMe')
     {
         return (
-            <div className="ProjectPortfolio">
+            <div className="project-portfolio">
                 <AboutMe/>
             </div>
           );
@@ -28,7 +28,7 @@ function ProjectPortfolio(props) {
     else if(props.componentToShow == 'Home')
     {
         return (
-            <div className="ProjectPortfolio">
+            <div className="project-portfolio">
                 <Home/>
             </div>
           );
@@ -36,7 +36,7 @@ function ProjectPortfolio(props) {
     else if(props.componentToShow == 'Contact')
     {
         return (
-            <div className="ProjectPortfolio">
+            <div className="project-portfolio">
                 <Contact/>
             </div>
           );
@@ -44,7 +44,7 @@ function ProjectPortfolio(props) {
     else if(props.componentToShow == 'Resume')
     {
         return (
-            <div className="ProjectPortfolio">
+            <div className="project-portfolio">
                 <Resume/>
             </div>
           );

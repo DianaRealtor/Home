@@ -20,9 +20,12 @@ function NavigationPortfolio(props) {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="navbar-brand" href="#">
-                Diana Santacruz <span className='navigation-portfolio-subTitle'> Real Estate Agent </span>
-              </a>
+              <div className="navbar-brand">
+                Diana Santacruz 
+                <span className='navigation-portfolio-subTitle'> Real Estate Agent </span>
+                <span className='navigation-portfolio-subTitle'> 661-544-5339 </span>
+              
+              </div>
             </div>
             <div className="collapse navbar-collapse" id="myNavbar">
               <ul className="nav navbar-nav navbar-right">

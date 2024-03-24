@@ -196,6 +196,7 @@ iframe {
 .cloudy-background{
   border-radius: 10px;
   background: rgb(255, 255, 255, 0.5);
+  height: 100%;
 }
 /* TOOLTIP CONTAINER */
 .portfolio-tooltip {

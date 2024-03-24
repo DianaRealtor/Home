@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
   /* background: rgb(110, 201, 139); */
 }
 
@@ -62,6 +63,7 @@ label {
 /* PAGE WIDE */
 :root {
   --primary-accent-color: #000000;
+  height: 100%;
 }
 body, html {
   height: 100%;
@@ -161,9 +163,10 @@ img:hover {
   }
 }
 /* PORTFOLIO SECTION */
-/* #portfolio {
-  background-color: var(--primary-accent-color); */
-/* } */
+ #portfolio {
+  /* background-color: var(--primary-accent-color);  */
+  height: 100%;
+ } 
 #portfolio a {
   font-size: 20px;
   color: black;
@@ -173,6 +176,9 @@ img:hover {
 }
 #portfolio a:hover {
   color: lightgrey;
+}
+.project-portfolio{
+  height: 100%;
 }
 .portfolio-sub-description {
   font-size: 23px;
