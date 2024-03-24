@@ -3,7 +3,7 @@
 
 import AboutMe from "./AboutMe";
 import Home from "./Home";
-import Resume from "./Resume";
+import Search from "./Search";
 import Contact from "./Contact";
 
 
@@ -41,11 +41,11 @@ function ProjectPortfolio(props) {
             </div>
           );
     }
-    else if(props.componentToShow == 'Resume')
+    else if(props.componentToShow == 'Search')
     {
         return (
             <div className="project-portfolio">
-                <Resume/>
+                <Search/>
             </div>
           );
     }

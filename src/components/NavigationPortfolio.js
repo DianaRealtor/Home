@@ -49,13 +49,13 @@ function NavigationPortfolio(props) {
                 </li>
 
 
-                <li className={activeMenu === 'Resume' ? 'highlight-nav' : ''}>
+                <li className={activeMenu === 'Search' ? 'highlight-nav' : ''}>
                   <a
                     href="#"
                     onClick={() => {
-                      console.log('testing onClick of Resume');
-                      setActiveMenu('Resume');
-                      props.showComponent('Resume');
+                      console.log('testing onClick of Search');
+                      setActiveMenu('Search');
+                      props.showComponent('Search');
                     }}
                   >
                     Search
