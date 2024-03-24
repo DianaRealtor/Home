@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: mistyrose;
+  /* background: rgb(110, 201, 139); */
 }
 
 .App-logo {
@@ -61,7 +61,7 @@ label {
 }
 /* PAGE WIDE */
 :root {
-  --primary-accent-color: #ba797d;
+  --primary-accent-color: #000000;
 }
 body, html {
   height: 100%;
@@ -224,6 +224,7 @@ iframe {
   z-index: 1;
   margin-top: 50px;
   margin-left: -95px;
+  top: -50px;
 }
 /* Tooltip text mouse over */
 .portfolio-tooltip:hover .tooltiptext {

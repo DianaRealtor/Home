@@ -40,7 +40,7 @@ function Contact() {
   
   return (
     <div id="portfolio">
-      <div className="container">
+      <div className="container  condensed-container">
         <h1 style={{marginTop: '65px'}}>CONTACT</h1>
         <p className="portfolio-sub-description">Send me a message and I will get back to you! </p>
         <hr className="divider-line"/>

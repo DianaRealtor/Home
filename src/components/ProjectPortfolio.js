@@ -2,7 +2,7 @@
 //import './ProjectPortfolio.css';
 
 import AboutMe from "./AboutMe";
-import WorkPortfolio from "./WorkPortfolio";
+import Home from "./Home";
 import Resume from "./Resume";
 import Contact from "./Contact";
 
@@ -25,11 +25,11 @@ function ProjectPortfolio(props) {
             </div>
           );
     }
-    else if(props.componentToShow == 'WorkPortfolio')
+    else if(props.componentToShow == 'Home')
     {
         return (
             <div className="ProjectPortfolio">
-                <WorkPortfolio/>
+                <Home/>
             </div>
           );
     }

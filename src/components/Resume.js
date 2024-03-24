@@ -1,6 +1,6 @@
 function Resume() {
     return (
-      <div className="container">
+      <div className="container  condensed-container">
       <h1 style={{marginTop: '65px'}}>RESUME</h1>
           <hr className="divider-line"/>
       <div className="Resume card" style={{ maxWidth: '600px', display: 'inline-table',margin: '30px'}}>

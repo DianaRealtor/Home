@@ -3,16 +3,14 @@
 
 function FooterPortfolio() {
   return (
-    <div className="FooterPortfolio">
+    <div className="footer-portfolio">
       
 
     <div id="contact">
       <div className="footer">
         <div className="container">
-          <h1 className="text-center" style={{marginTop: '65px'}}>Links</h1>
-          <hr className="divider-line"/>
           <div className="row">
-            <div className="home-buttons text-center" style={{marginBottom: '65px'}}>
+            <div className="home-buttons text-center" style={{marginBottom: '10px'}}>
               <a href="https://www.linkedin.com/in/diana-santacruz-264a708b/" className="portfolio-tooltip contact-button btn btn-default">
                 <i className="fa fa-linkedin"></i>
                 <span className="tooltiptext">Linkedin</span>

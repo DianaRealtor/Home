@@ -17,7 +17,7 @@ function App() {
   // Set default component to display if componentToShow is null
   useEffect(() => {
     if (!componentToShow) {
-      setComponentToShow('AboutMe');
+      setComponentToShow('Home');
     }
   }, [componentToShow]);
 

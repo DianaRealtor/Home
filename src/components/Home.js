@@ -1,8 +1,8 @@
 
-function WorkPortfolio() {
+function Home() {
     return (
       <div id="portfolio">
-      <div className="container">
+      <div className="container  condensed-container">
         <h1 style={{marginTop : "65px"}} className="text-center project-item">PORTFOLIO </h1>
         <p className="portfolio-sub-description">Below are some examples of my work. Stay tuned for more! </p>
         <hr className="divider-line"/>
@@ -109,4 +109,4 @@ function WorkPortfolio() {
     );
 }
   
-  export default WorkPortfolio;
+  export default Home;

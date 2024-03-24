@@ -16,7 +16,7 @@ code {
 /* THIS IS THE START OF THE STYLE FROM THE PORTFOLIO FILE */
 /* PAGE WIDE */
 :root {
-  --primary-accent-color: #ba797d;
+  --primary-accent-color: #000000;
 }
 body, html {
   height: 100%;
@@ -75,6 +75,12 @@ img:hover {
   color: #fff ;
   font-size: 23px;
 }
+.navigation-portfolio-subTitle {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: solid thin;
+  color: #b4b4b4 ;
+}
 /* center hero image when screen width is no more than 768px */
 @media (max-width: 768px) {
   .home-hero {
@@ -100,6 +106,16 @@ img:hover {
   font-family: "Oswald";
   font-size: 60px;
   color: #fff;
+}
+.home-static-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/assets/home-image.jpg'); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  z-index: -1;
 }
 /* ABOUT SECTION */
 #about {
@@ -174,8 +190,20 @@ iframe {
 .contact-button > i {
   font-size: x-large;
 }
+.condensed-container{
+  padding-bottom: 12rem;
+}
+.cloudy-background{
+  border-radius: 10px;
+  background: rgb(255, 255, 255, 0.5);
+}
 /* TOOLTIP CONTAINER */
 .portfolio-tooltip {
+}
+.footer-portfolio {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 /* Tooltip text */
 .portfolio-tooltip .tooltiptext {
