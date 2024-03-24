@@ -27,6 +27,10 @@ function FooterPortfolio() {
                 <i className="fa fa-facebook"></i>
                 <span className="tooltiptext">Facebook</span>
               </a>
+              <a href="https://homesmart.com/real-estate-agent/california/lancaster/83005-diana-santacruz/Welcome" className="portfolio-tooltip contact-button btn btn-default">
+                <i className="fa fa-user-circle-o"></i>
+                <span className="tooltiptext">HomeSmart</span>
+              </a>
             </div>
           </div>
         </div>
