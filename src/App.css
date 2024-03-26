@@ -96,6 +96,11 @@ img:hover {
   -webkit-filter: none !important;
   filter: none !important;
 }
+.size-auto{
+  height:auto;
+  width:auto;
+}
+
 
 .big-img {
   height: 361px;
@@ -106,6 +111,11 @@ img:hover {
     padding:unset;
     border: unset;
   }
+  
+.size-auto{
+  height:auto;
+  width:-webkit-fill-available;
+}
 }
 
 .btn-default {

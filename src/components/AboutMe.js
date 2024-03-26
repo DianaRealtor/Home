@@ -10,7 +10,14 @@ function AboutMe() {
               <h1 style={{ marginTop: "65px" }}>ABOUT ME</h1>
               <hr className="divider-line" />
 
+              <img
+                className="not-grey size-auto"
+                src={`${process.env.PUBLIC_URL}/assets/about-me-pic222.jpg`}
+                alt="avatar"
+              />
               <div className="about-text">
+              <br/>
+
                 <p>
                   Welcome to my corner of the Antelope Valley real estate
                   market! I'm Diana Santacruz, your dedicated guide through the
@@ -55,11 +62,7 @@ function AboutMe() {
                   today, and let's turn your real estate dreams into reality!
                 </p>
               </div>
-              {/* <img
-              className="not-grey big-img"
-              src={`${process.env.PUBLIC_URL}/assets/home-image.jpg`}
-              alt="avatar"
-            /> */}
+
               <hr className="divider-line" />
             </div>
           </div>

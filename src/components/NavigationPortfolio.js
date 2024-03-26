@@ -23,7 +23,7 @@ function NavigationPortfolio(props) {
               <div className="navbar-brand">
                 Diana Santacruz 
                 <span className='navigation-portfolio-subTitle'> Real Estate Agent </span>
-                <span className='navigation-portfolio-subTitle'> 661-544-5339 </span>
+                <span className='navigation-portfolio-thirdTitle'> 661-544-5339 </span>
               
               </div>
             </div>

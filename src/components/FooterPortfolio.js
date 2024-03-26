@@ -10,7 +10,7 @@ function FooterPortfolio() {
       <div className="footer">
         <div className="container">
           <div className="row flex-row-center">
-            <div className="home-buttons text-center" style={{marginBottom: '10px'}}>
+            <div className="home-buttons text-center">
               <a href="https://www.youtube.com/channel/UCAYIrUy3rrfIqPCvrZITu7A" className="portfolio-tooltip contact-button btn btn-default">
                 <i className="fa fa-youtube"></i>
                 <span className="tooltiptext">YouTube</span>
